@@ -18,14 +18,22 @@ header p {
 }
 .heroImg {
   background-color: #EBEBEB;
-  padding: 100px 15px;
+  padding: 200px 15px;
 }
 .content {
-  max-width: 300px;
+  max-width: 400px;
   margin: 0 auto;
   padding: 50px;
-  background-color: #FFFFFF;
+  background-color: #7C758A;
   text-align: center;
+}
+.content img{
+  width: 200px;
+  height: auto;
+}
+img {
+  width: 100px;
+  height: auto;
 }
 button {
   padding: 15px;
@@ -47,3 +55,13 @@ footer li {
   display: inline-block;
   padding: 0px 7px;
 }
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  width: 33%;
+  margin-left: 600px;
+  margin-right:600px;
+  padding: 50px;
+}
+
+
