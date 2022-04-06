@@ -58,11 +58,11 @@ footer li {
 .flexContainer {
   display: flex;
   padding: 60px;
- border: 2px solid red;
+background-color: #7C758A;
 }
 
 .flexContainer div {
 max-width: 300px;
-padding:0px 110px 0px 100px;
+padding:30px 110px 0px 100px;
 align-content: center;
 }
