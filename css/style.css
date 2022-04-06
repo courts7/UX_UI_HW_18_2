@@ -57,11 +57,12 @@ footer li {
 }
 .flexContainer {
   display: flex;
-  justify-content: center;
-  width: 33%;
-  margin-left: 600px;
-  margin-right:600px;
-  padding: 50px;
+  padding: 60px;
+ border: 2px solid red;
 }
 
-
+.flexContainer div {
+max-width: 300px;
+padding:0px 110px 0px 100px;
+align-content: center;
+}
