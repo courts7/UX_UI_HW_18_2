@@ -90,8 +90,14 @@ width: 33%;
 
 /*My Work */
 
-.myGrid{
+.myGrid {
   display:grid;
-  gap: 1rem;
+  grid-template-columns: repeat (3 4fr);
+  grid-template-rows: repeat (2 2fr);
+  gap: 20px;
+  
 }
-
+.myGrid .img1 {
+  display: grid;
+  grid-template-areas:  4fr;
+}
