@@ -4,17 +4,23 @@ body {
 header {
   background-color: #373738;
   padding: 15px;
+  font-family: 'Fira Sans', sans-serif;
+
 }
 header ul {
   float: right;
   color: white;
+  
 }
 header li {
   display: inline-block;
   padding: 0px 5px;
+  font-family:'Fira Sans', sans-serif;
 }
 header p {
   display: inline-block;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 24pt;
 }
 .heroImg {
   background-color: #EBEBEB;
@@ -26,6 +32,9 @@ header p {
   padding: 50px;
   background-color: #7C758A;
   text-align: center;
+  font-family:'Fira Sans', sans-serif;
+  font-size: 14pt;
+ line-height: 22px;
 }
 .content img{
   width: 200px;
@@ -41,6 +50,8 @@ button {
   color: white;
   font-size: 15px;
   border-radius: 4px;
+  font-family: 'Fira Sans', sans-serif;
+
 }
 footer {
   background-color: #373738;
@@ -54,15 +65,33 @@ footer ul {
 footer li {
   display: inline-block;
   padding: 0px 7px;
+  font-family: 'Fira Sans', sans-serif;
+
 }
+/*My skills */
+.mySkills {
+ 
+}
+
 .flexContainer {
   display: flex;
   padding: 60px;
-background-color: #7C758A;
+border: 1px #7C758A;
 }
 
 .flexContainer div {
-max-width: 300px;
-padding:30px 110px 0px 100px;
-align-content: center;
+border: 5px solid #7C758A;
+margin: 20px;
+padding: 20px;
+justify-content: center;
+width: 33%;
 }
+
+
+/*My Work */
+
+.myGrid{
+  display:grid;
+  gap: 1rem;
+}
+
